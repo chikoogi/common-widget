@@ -7,8 +7,13 @@
     "skipLibCheck": true,
     "baseUrl": "./",
     "paths": {
+      "@public/*": ["public/*"],
+      "@src/*": ["src/*"],
+      "@res/*": ["res/*"],
+      "@components/*": ["src/components/*"],
+            "@assets/*": ["src/assets/*"]
     },
-//    "jsxImportSource": "@emotion/react",
+    "jsxImportSource": "@emotion/react",
 
     /* Bundler mode */
     "moduleResolution": "bundler",
@@ -26,7 +31,7 @@
   },
   "include": ["src", "custom.d.ts"],
   "references": [
-    { "path": "./tsconfig.app.json"},
+//    { "path": "./tsconfig.app.json"},
     { "path": "./tsconfig.node.json"}
   ]
 }
