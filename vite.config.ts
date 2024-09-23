@@ -29,11 +29,11 @@ export default (props: ConfigEnv) => {
       svgr(),
     ],
     resolve: {
-      /*      alias: [
+      alias: [
         { find: "@src", replacement: path.resolve(__dirname, "/src") },
         { find: "@res", replacement: path.resolve(__dirname, "/res") },
         { find: "@components", replacement: path.resolve(__dirname, "/src/components") },
-      ],*/
+      ],
     },
   });
 };

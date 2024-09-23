@@ -11,7 +11,7 @@
       "@src/*": ["src/*"],
       "@res/*": ["res/*"],
       "@components/*": ["src/components/*"],
-            "@assets/*": ["src/assets/*"]
+      "@assets/*": ["src/assets/*"]
     },
     "jsxImportSource": "@emotion/react",
 
