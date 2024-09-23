@@ -51,6 +51,7 @@ const RAW_RUNTIME_STATE =
           ["react-color", "virtual:dbadd2dc0acbcf055762704d480fc40dee8d6fb51fe44df630c251dd0d06a555ad36ec3092cdc47d0207257444261853f1f9522fbfda09053710b5d34ddc875b#npm:2.19.3"],\
           ["react-dom", "virtual:dbadd2dc0acbcf055762704d480fc40dee8d6fb51fe44df630c251dd0d06a555ad36ec3092cdc47d0207257444261853f1f9522fbfda09053710b5d34ddc875b#npm:18.3.1"],\
           ["react-router-dom", "virtual:dbadd2dc0acbcf055762704d480fc40dee8d6fb51fe44df630c251dd0d06a555ad36ec3092cdc47d0207257444261853f1f9522fbfda09053710b5d34ddc875b#npm:6.26.1"],\
+          ["rollup-preserve-directives", "virtual:dbadd2dc0acbcf055762704d480fc40dee8d6fb51fe44df630c251dd0d06a555ad36ec3092cdc47d0207257444261853f1f9522fbfda09053710b5d34ddc875b#npm:1.1.1"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["typescript-eslint", "virtual:dbadd2dc0acbcf055762704d480fc40dee8d6fb51fe44df630c251dd0d06a555ad36ec3092cdc47d0207257444261853f1f9522fbfda09053710b5d34ddc875b#npm:8.4.0"],\
           ["vite", "virtual:dbadd2dc0acbcf055762704d480fc40dee8d6fb51fe44df630c251dd0d06a555ad36ec3092cdc47d0207257444261853f1f9522fbfda09053710b5d34ddc875b#npm:5.4.7"],\
@@ -2759,6 +2760,7 @@ const RAW_RUNTIME_STATE =
           ["react-color", "virtual:dbadd2dc0acbcf055762704d480fc40dee8d6fb51fe44df630c251dd0d06a555ad36ec3092cdc47d0207257444261853f1f9522fbfda09053710b5d34ddc875b#npm:2.19.3"],\
           ["react-dom", "virtual:dbadd2dc0acbcf055762704d480fc40dee8d6fb51fe44df630c251dd0d06a555ad36ec3092cdc47d0207257444261853f1f9522fbfda09053710b5d34ddc875b#npm:18.3.1"],\
           ["react-router-dom", "virtual:dbadd2dc0acbcf055762704d480fc40dee8d6fb51fe44df630c251dd0d06a555ad36ec3092cdc47d0207257444261853f1f9522fbfda09053710b5d34ddc875b#npm:6.26.1"],\
+          ["rollup-preserve-directives", "virtual:dbadd2dc0acbcf055762704d480fc40dee8d6fb51fe44df630c251dd0d06a555ad36ec3092cdc47d0207257444261853f1f9522fbfda09053710b5d34ddc875b#npm:1.1.1"],\
           ["typescript", "patch:typescript@npm%3A5.5.4#optional!builtin<compat/typescript>::version=5.5.4&hash=379a07"],\
           ["typescript-eslint", "virtual:dbadd2dc0acbcf055762704d480fc40dee8d6fb51fe44df630c251dd0d06a555ad36ec3092cdc47d0207257444261853f1f9522fbfda09053710b5d34ddc875b#npm:8.4.0"],\
           ["vite", "virtual:dbadd2dc0acbcf055762704d480fc40dee8d6fb51fe44df630c251dd0d06a555ad36ec3092cdc47d0207257444261853f1f9522fbfda09053710b5d34ddc875b#npm:5.4.7"],\
@@ -4661,6 +4663,16 @@ const RAW_RUNTIME_STATE =
         "linkType": "HARD"\
       }]\
     ]],\
+    ["magic-string", [\
+      ["npm:0.30.11", {\
+        "packageLocation": "./.yarn/cache/magic-string-npm-0.30.11-4e76dc2f30-10c0.zip/node_modules/magic-string/",\
+        "packageDependencies": [\
+          ["magic-string", "npm:0.30.11"],\
+          ["@jridgewell/sourcemap-codec", "npm:1.5.0"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
     ["make-fetch-happen", [\
       ["npm:13.0.1", {\
         "packageLocation": "./.yarn/cache/make-fetch-happen-npm-13.0.1-4180f2aaa8-10c0.zip/node_modules/make-fetch-happen/",\
@@ -5560,6 +5572,29 @@ const RAW_RUNTIME_STATE =
           ["@rollup/rollup-win32-x64-msvc", "npm:4.21.2"],\
           ["@types/estree", "npm:1.0.5"],\
           ["fsevents", "patch:fsevents@npm%3A2.3.3#optional!builtin<compat/fsevents>::version=2.3.3&hash=df0bf1"]\
+        ],\
+        "linkType": "HARD"\
+      }]\
+    ]],\
+    ["rollup-preserve-directives", [\
+      ["npm:1.1.1", {\
+        "packageLocation": "./.yarn/cache/rollup-preserve-directives-npm-1.1.1-cd8ccf8c00-10c0.zip/node_modules/rollup-preserve-directives/",\
+        "packageDependencies": [\
+          ["rollup-preserve-directives", "npm:1.1.1"]\
+        ],\
+        "linkType": "SOFT"\
+      }],\
+      ["virtual:dbadd2dc0acbcf055762704d480fc40dee8d6fb51fe44df630c251dd0d06a555ad36ec3092cdc47d0207257444261853f1f9522fbfda09053710b5d34ddc875b#npm:1.1.1", {\
+        "packageLocation": "./.yarn/__virtual__/rollup-preserve-directives-virtual-e96e62b650/0/cache/rollup-preserve-directives-npm-1.1.1-cd8ccf8c00-10c0.zip/node_modules/rollup-preserve-directives/",\
+        "packageDependencies": [\
+          ["rollup-preserve-directives", "virtual:dbadd2dc0acbcf055762704d480fc40dee8d6fb51fe44df630c251dd0d06a555ad36ec3092cdc47d0207257444261853f1f9522fbfda09053710b5d34ddc875b#npm:1.1.1"],\
+          ["@types/rollup", null],\
+          ["magic-string", "npm:0.30.11"],\
+          ["rollup", null]\
+        ],\
+        "packagePeers": [\
+          "@types/rollup",\
+          "rollup"\
         ],\
         "linkType": "HARD"\
       }]\
