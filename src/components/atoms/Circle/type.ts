@@ -1,9 +1,12 @@
-import { Interpolation, Theme } from "@emotion/react";
+import { SerializedStyles } from "@emotion/react";
 import { HTMLAttributes } from "react";
 
 export interface HWCircleProps extends HTMLAttributes<HTMLDivElement> {
-  customCss?: Interpolation<Theme>;
-  size?: number;
+  customCss?: SerializedStyles;
+  width?: number;
+  height?: number;
+  border?: string;
   color?: string;
+  active?: boolean;
   onClick?: (e: React.MouseEvent<HTMLDivElement>) => void;
 }

@@ -66,7 +66,7 @@ export default (props: ConfigEnv) => {
     resolve: {
       alias: [
         { find: "@src", replacement: path.resolve(__dirname, "/src") },
-        { find: "@res", replacement: path.resolve(__dirname, "/res") },
+        { find: "@assets", replacement: path.resolve(__dirname, "/src/assets") },
         { find: "@components", replacement: path.resolve(__dirname, "/src/components") },
       ],
     },

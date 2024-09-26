@@ -1,9 +1,10 @@
+import { IconAlarm } from "./assets";
 
 function App() {
-
   return (
     <>
-        App
+      App
+      <IconAlarm />
     </>
   );
 }

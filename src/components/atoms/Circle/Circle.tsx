@@ -3,8 +3,10 @@ import { HWCircleProps } from "./type";
 
 const Circle = ({
   className,
-  size = 5,
+  width = 5,
+  height = 5,
   color = "#ffffff",
+  border = "none",
   onClick,
   customCss,
   ...props
@@ -12,7 +14,7 @@ const Circle = ({
   return (
     <div
       className={className}
-      css={[style.root.circle(size, color), customCss]}
+      css={[style.root.circle(width, height, color, border), customCss]}
       onClick={onClick}
       {...props}
     />
